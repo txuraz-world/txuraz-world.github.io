@@ -1,0 +1,82 @@
+header {
+	background-color: #848E66;
+	background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	background-size:100%;
+	padding:20px;
+}
+h1{
+	text-align: center;
+	color: #ffffff;
+	font-size: 220%;
+}
+h2{
+	color: #000000;
+}
+body{
+	padding: 2%;
+	font-size:125%;
+}
+section{
+	box-sizing: border-box;
+	background: #ffffff;
+	display: inline-block;
+	overflow: auto;
+}
+nav a{
+	border-radius: 50px;
+	color:#000000;
+	background-color: #ffffff;
+	height: 10%;
+	width:12%;
+	text-align: center;
+	margin: 5%;
+	padding: 8px;
+	text-decoration: none;
+	display: inline-block;
+	opacity: 40%;
+}
+nav a:link{
+	color:#03fcfc;
+}
+nav a:visited{
+	color: #000000;
+	background-color:#ffffff; 
+}
+nav a:hover, nav a:active{
+    color:#000000 ;
+    background-color: #0af5f1;
+}
+nav a:focus{
+    color:#0af5f1;
+}
+img{
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	width: 60%;
+	height: 25%;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	border: solid;
+	border-color: #000000;
+
+}
+.right{
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+	background-color: #ffffff;
+	width: 80%;
+}
+.left{
+	box-sizing: border-box;
+	display: inline-block;
+	clear: left;
+	background-color: #59c124;
+	width: 20%;
+	height: auto;
+}
+.active{
+	background-color: #000000;
+	color: #ffffff;
+}
